@@ -5,7 +5,7 @@ import { RadioButton } from 'react-native-radio-buttons-group';
 
 
 const Form = () => {
-  const [gender, setGender] = useState('Male');
+  const [gender, setGender] = useState();
 
   return (
     <View style={styles.maincontainer}>
